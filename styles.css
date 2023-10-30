@@ -1,0 +1,570 @@
+/* Reset the list style */
+
+body{
+    background-color: #191919;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.44;
+    
+}
+
+
+/* Navbar  */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #171717;
+    box-shadow: 0 4px 2px -2px grey;
+}
+
+.logo {
+    padding-right: 20px;
+}
+
+.logo p {
+    display: inline-flex;
+}
+
+.log {
+    display: inline-flex;
+    height: 4.15rem;
+    vertical-align: middle;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #a7a7a9;
+    margin: 0 15px;
+}
+
+.links a:hover {
+    color: white;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.trade-btn {
+    background-color: #3eb489;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.connect-wallet {
+    background: transparent;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin: 8px 5px 8px 5px;
+    padding: 5px 14px;
+    align-items: center;
+
+}
+
+.wall {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+
+}
+
+
+
+
+.btn {
+    margin-left: 20px;
+    background: transparent;
+}
+
+.btn {
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.separator {
+    content: '';
+    display: inline-block;
+    background: #cecece;
+    margin: 0px 4px;
+    height: 18px;
+    width: 1px;
+    vertical-align: top;
+
+}
+
+
+.wallet1{
+    display: inline-flex;
+    align-items: center;
+}
+/* ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} */
+
+/* Style the list items */
+/* ul.menu li {
+    float: left;
+} */
+
+/* Style the links */
+/* ul.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+
+/* Change the link color on hover */
+/* ul.menu li a:hover {
+    background-color: #111;
+} */
+
+/* Responsive styling for mobile devices */
+@media screen and (max-width: 600px) {
+    ul.menu li {
+        float: none;
+        width: 100%;
+    }
+
+    ul.menu li a {
+        text-align: left;
+    }
+}
+
+
+.home-container {
+    justify-content: space-evenly;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    margin: 0 auto;
+
+    position: relative;
+    width: 100%;
+    padding-top: 6.2rem;
+}
+
+.home-top{
+    max-width: 53rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info-block {
+    display:inline-flex;
+    border-radius: 4px;
+    
+    max-width: 38rem;
+    
+    align-items: center;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    margin: 1.6rem 0;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    
+    border:  0.01px solid gray;;
+    padding-right: 1.5rem; 
+
+}
+
+.container2{
+    background: #191919;
+    
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+    
+}
+
+
+.benifit-2{
+    padding: 2.4rem 0;
+    justify-content: space-between;
+}
+
+.img-content{
+    display: flex;
+    align-items: center;
+    padding: 0 0 1.5rem;
+    font-size: 1.85rem;
+}
+
+.bnft-title{
+    font-size: 2.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin-left: 1.5rem;
+}
+
+
+
+.img-desc{
+    padding-right: 18px;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    max-width: 29rem;
+    color: #cecece;
+    letter-spacing: 0;
+}
+.dft-container{
+
+    max-width: 126.4rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    margin: 0 auto;
+
+}
+
+.container1{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding-top: 6.2rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+    
+    
+}
+
+.container1 img{
+    /* margin-left: 2.55rem;
+    margin-right: 3.95rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 6.2rem;
+    padding-bottom: 1.5rem;
+    width: 100%;*/
+    /* padding-left: 3.2rem;
+    padding-right: 3.2rem; */
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+    
+    
+}
+
+.info.content{
+    
+    
+
+}
+.info-title{
+    
+    
+    
+    
+}
+
+.info-value{
+    width: 100%;
+}
+
+.dft-btn{
+    background: #3eb489;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff!important;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    box-sizing: border-box;
+    min-height: 3.6rem;
+    display: inline-flex!important;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.header-title{
+    font-size: 5.7rem;
+    line-height: 6.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0;
+}
+
+.header-description{
+
+    font-size: 2rem;
+    line-height: 2.5rem;
+    max-width: 44.4rem;
+    color: #cecece;
+    margin-bottom: 2.8rem;
+}
+
+.main{
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 2px 5px;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.logo {
+    padding-right: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: grey;
+    margin: 0 15px;
+}
+
+
+
+.links a:hover{
+    
+    color: white;
+    
+}
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.trade-btn {
+    background-color: #3eb489;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.connect-wallet {
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Footer section css */
+
+.nlogo {
+    display: inline-block;
+    height: 4.15rem;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footer-logo p {
+    color: #fff;
+    display: inline-flex;
+}
+
+.footer-logo {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.social {
+    text-align: center;
+    font-size: 35px;
+}
+
+#twi {
+    color: #a7a7a9;
+    padding-right: 55px;
+}
+
+#med {
+    color: #a7a7a9;
+    padding-right: 55px;
+}
+
+#git {
+    color: #a7a7a9;
+    padding-right: 55px;
+}
+
+#tel {
+    color: #a7a7a9;
+    padding-right: 55px;
+}
+
+#dis {
+    color: #a7a7a9;
+
+}
+
+#twi:hover {
+    color: white;
+}
+
+#med:hover {
+    color: white;
+}
+
+#git:hover {
+    color: white;
+}
+
+#tel:hover {
+    color: white;
+}
+
+#dis:hover {
+    color: white;
+}
+
+.link {
+    margin-top: 15px;
+    padding-left: 450px;
+    margin-bottom: 10px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #a7a7a9;
+    margin: 0 15px;
+}
+
+.link a:hover {
+    color: white;
+}
+
+
+
+/* Responsive css using media query*/
+
+/* Responsive styling for mobile devices */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        padding-right: 0;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links a {
+        margin: 5px 0;
+    }
+
+    .actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .trade-btn {
+        margin: 10px 0;
+    }
+
+    .connect-wallet {
+        margin: 8px 0;
+    }
+}
+
+/* Responsive styling for tablet devices */
+@media screen and (max-width: 900px) {
+    .navbar {
+        justify-content: space-around;
+    }
+    .logo {
+        padding-right: 0;
+    }
+    .actions {
+        flex-direction: column;
+    }
+}
+
+/* Responsive styling for medium-sized screens */
+@media screen and (max-width: 1200px) {
+    .navbar {
+        justify-content: space-evenly;
+    }
+    .logo {
+        padding-right: 20px;
+    }
+    .actions {
+        flex-direction: row;
+    }
+}
