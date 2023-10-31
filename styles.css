@@ -506,6 +506,119 @@ body {
 }
 
 
+/* Token css */
+
+
+.token-options {
+    display: inline-flex;
+    padding-left: 10px;
+    padding-right: 40px;
+    justify-content: space-between;
+
+}
+
+.token {
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 0px 27px;
+    margin: 0px 32px;
+    padding-top: 50px;
+}
+
+.romi {
+    margin: 0px 8px 0px 0px;
+}
+
+.opt1 h5 {
+    display: inline-flex;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+
+.opt2 h5 {
+    display: inline-flex;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.opt1 {
+    border: 1px solid grey;
+    border-radius: 1%;
+    float: left;
+    padding: 15px;
+    margin-right: 80px;
+    margin-left: 50px;
+    padding-right: 40px;
+}
+
+.opt1 h4 {
+    color: #fff;
+    padding-left: 15px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+
+}
+
+.opt1 p {
+    color: #cecece;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+.opt2 {
+    border: 1px solid grey;
+    border-radius: 1%;
+    float: right;
+    padding: 15px;
+    padding-right: 40px;
+}
+
+.opt2 h4 {
+    color: #fff;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.opt2 p {
+    color: #cecece;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.buy {
+    background-color: #3eb489;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.read {
+    background: transparent;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin: 8px 5px 8px 5px;
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: 2px;
+}
+
+hr {
+    color: #cecece;
+    margin-top: 70px;
+}
+
+
+
 
 /* Responsive css using media query*/
 
